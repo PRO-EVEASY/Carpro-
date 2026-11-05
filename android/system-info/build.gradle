@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application' version '8.9.1'
+}
+android {
+    namespace 'dev.local.sysinfo'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'dev.local.sysinfo'
+        minSdk 29
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = []
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        debug { debuggable true }
+    }
+}

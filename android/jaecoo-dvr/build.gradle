@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application' version '8.9.1'
+}
+android {
+    namespace 'dev.local.jaecoorecorder'
+    compileSdk 34
+    buildFeatures { buildConfig true }
+    defaultConfig {
+        applicationId 'dev.local.jaecoorecorder'
+        minSdk 29
+        targetSdk 28
+        versionCode 1
+        versionName '1.1.0-source'
+        ndk { abiFilters 'arm64-v8a' }
+    }
+    flavorDimensions 'device'
+    productFlavors {
+        phone { dimension 'device'; buildConfigField 'boolean', 'CAR_MODE', 'false' }
+        car { dimension 'device'; buildConfigField 'boolean', 'CAR_MODE', 'true' }
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = []
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    externalNativeBuild {
+        cmake { path file('CMakeLists.txt'); version '3.22.1' }
+    }
+    buildTypes {
+        debug { debuggable true }
+        release { minifyEnabled false }
+    }
+}

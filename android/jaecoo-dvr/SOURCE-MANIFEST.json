@@ -1,0 +1,266 @@
+{
+  "schema": 1,
+  "scope": "allowlisted project-owned text source; no compiled libraries or APK",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 138,
+      "sha256": "7d559f86f4784f2416ffa9d8af5b32026b234c99fe33148c1e35f5911e055553"
+    },
+    {
+      "path": "AndroidManifest.xml",
+      "bytes": 2075,
+      "sha256": "e585677a0ef0038e6ab6ab821723fd350dafb2f5455b63bb1342014f38e4454d"
+    },
+    {
+      "path": "BUILDING.md",
+      "bytes": 4313,
+      "sha256": "8b559a1a328a2a9007916321da72ea6d94d14c33e4bcc652ccfe82e35e9440ae"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 647,
+      "sha256": "02d98f0a05eaa3ccc9aeb80cf2b42d431861b55e33daf48a77ef1f69e17370f3"
+    },
+    {
+      "path": "COMPATIBILITY.md",
+      "bytes": 2993,
+      "sha256": "ac6ac26bd7f79899167a3af9dc9937cbb6a9b37ddd4c2506e6c7b2d0e99302f3"
+    },
+    {
+      "path": "KULLANIM.md",
+      "bytes": 3657,
+      "sha256": "45d2f6f45d58df9e9b5f4c8d9247c105af711a39c732f62213c1f77853259a2e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1088,
+      "sha256": "c7283f106ec1a8c2dce4f346ae2a6664ef302cb30459aa8463c4dba933cb11f6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1713,
+      "sha256": "29f69c7f0ed105d51bb0fe7922e48763d8b977fbf210037fb71cbab08a5a97c6"
+    },
+    {
+      "path": "TESTING.md",
+      "bytes": 1805,
+      "sha256": "8b23424c8574f1e10c19c6d158f3f4c4045b893e62857e64bfd2d405a7a74142"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 2901,
+      "sha256": "df633223e88422e105157d2da21cffac8204803c12ba944ff420f79ded9307a2"
+    },
+    {
+      "path": "build.gradle",
+      "bytes": 861,
+      "sha256": "53b656893a773b3497977e7dbaf016edb574949bfbe3d1e71a7123b6635a99c9"
+    },
+    {
+      "path": "build.ps1",
+      "bytes": 6242,
+      "sha256": "8cf86d8cc5050b67954309d6e04748cc529c01815b8572305e079149de3d6372"
+    },
+    {
+      "path": "gradle.properties",
+      "bytes": 77,
+      "sha256": "4667473ab79d19d7b6d3f7c341c798a60b413fa3aa08587ce81809a58c797904"
+    },
+    {
+      "path": "native/bridge.c",
+      "bytes": 1817,
+      "sha256": "d8964e161a92f543b24de371f4a8ce33083046452c11382dee6a64dc0256c0c7"
+    },
+    {
+      "path": "native/own/android_yuv.c",
+      "bytes": 2442,
+      "sha256": "e25ac779047a69ca35d34112a9b176eb8bbdb6ac94bba010c24f7a569c554615"
+    },
+    {
+      "path": "native/own/hab_transport.c",
+      "bytes": 9900,
+      "sha256": "66e6baa97815b4efff39225eb257c4093055d3d53ba6e9fad8be05eefb0c90b0"
+    },
+    {
+      "path": "native/own/hab_transport.h",
+      "bytes": 2459,
+      "sha256": "941a3af7ab716ecb61ec9444843e72704cbc4153f86899ea6ff66e7e0c60e944"
+    },
+    {
+      "path": "native/own/own_camera.c",
+      "bytes": 11187,
+      "sha256": "779defd1d560b5197eab87661704d7098f51c861a551f4931fbc5fbfeb710804"
+    },
+    {
+      "path": "native/own/own_camera.h",
+      "bytes": 740,
+      "sha256": "f7804dbbf01d94c97a37749370a8a617c79fc1c1bb821723227a76dcd66be497"
+    },
+    {
+      "path": "native/own/own_camera_jni.c",
+      "bytes": 2474,
+      "sha256": "e7b7ea9769a7ec7ac362dc90dccc6702e3c525fa84cd9d5029a0a6440d03a1dc"
+    },
+    {
+      "path": "native/own/own_camera_probe.c",
+      "bytes": 572,
+      "sha256": "1e4a2509b8be9c4ab042d19d997226e57a49fdbcc8276c30018db0ebfa1ac72f"
+    },
+    {
+      "path": "native/own/own_lens.c",
+      "bytes": 4053,
+      "sha256": "dd73f3f54f28fa54f2357035177a4beb2b2d9a4fcbc77861cc2ebf3d00f21bac"
+    },
+    {
+      "path": "native/own/own_lens.h",
+      "bytes": 412,
+      "sha256": "70227bbc5c847c312698e1eaa10c0a8e609fe59e09ce5303c5f48bda3eb3cdd7"
+    },
+    {
+      "path": "native/own/own_lens_jni.c",
+      "bytes": 1450,
+      "sha256": "f8cf62703846c5ca3d11f50d30aac0aa9a4c940191a0dbddd0a32e2d8ba5b064"
+    },
+    {
+      "path": "native/own/own_mosaic.c",
+      "bytes": 6862,
+      "sha256": "3720cca2b91982849063522a8d2a3cfccbc54a0a816a8f53947c6c3fb034af5b"
+    },
+    {
+      "path": "native/own/own_mosaic.h",
+      "bytes": 1732,
+      "sha256": "99f49866215af5d0522df117364f2cc26d37cde870132979e0a7093c5be99f35"
+    },
+    {
+      "path": "native/own/own_mosaic_jni.c",
+      "bytes": 2157,
+      "sha256": "40484d6fc872d64ae1c60036d589718b387260f20c5385394f3240a61cc9d93c"
+    },
+    {
+      "path": "package_source.py",
+      "bytes": 7407,
+      "sha256": "ce5d06ca2f565289b5c31d39b85240936029b854ce69e1bfc32b022225662aaf"
+    },
+    {
+      "path": "settings.gradle",
+      "bytes": 266,
+      "sha256": "e1bb3aaf358b8c77edea5227e8bbf32915342086adb22e94f17f5a3f27d9075a"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/Camera2Backend.java",
+      "bytes": 10078,
+      "sha256": "ee139e61ce7a63ed5b5628c3577a19276dcf84cb0366807c2674be627adf9da7"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/Camera2Converter.java",
+      "bytes": 951,
+      "sha256": "20ac1ccaf45002a87e5b102e6cad554d0812db477dfda48a74e083ed5ea4a897"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/CameraNative.java",
+      "bytes": 772,
+      "sha256": "45b43904433e814ff02a71e9dfe5916661f8d24dcd6dc676425ee57218412c8e"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/CameraService.java",
+      "bytes": 29270,
+      "sha256": "d16c2b6bf0907497007080e5e6758263e539123b4209b8e88be9587e3515cd6d"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/CaptureBackend.java",
+      "bytes": 1134,
+      "sha256": "2b1a95e66e8ddf7d4bfc59ebae36e41f926515046ff6b15665caeb87af82cd13"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/CaptureNative.java",
+      "bytes": 868,
+      "sha256": "27f557a714926cd028f3b715fe087fd85d7b50ce11ebda4c7e072e7b93630668"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/DvrAutomation.java",
+      "bytes": 3917,
+      "sha256": "c7b6e981d211b1cde75582f6073b6a7a0b9a6d772cf374f323dae066eee46cb6"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/DvrBootReceiver.java",
+      "bytes": 1832,
+      "sha256": "60279174627bc0ed744560a995b59884e2b263204593379def8d25829df808be"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/DvrSettings.java",
+      "bytes": 8006,
+      "sha256": "c0d6e6a1d588fbf184feccbdf6d1cb5b6668ffe4d7d1dc8a238c07fcadd7029d"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/DvrShockSensor.java",
+      "bytes": 4210,
+      "sha256": "01dad7fad1c23cd6410598eeb0d97ffac8c306d8fd0f8bd52a56a16f63ea934c"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/GpuPipeline.java",
+      "bytes": 23638,
+      "sha256": "66e523d8e20caa53bdb93ebe9a889cf548351c9b29abacad08481b77d0ed2b3b"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/HabBackend.java",
+      "bytes": 2036,
+      "sha256": "4b6d54817827507d922d1157e25dd0091e8421e6570741e573270b6f67af8ef9"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/LensMesh.java",
+      "bytes": 2626,
+      "sha256": "2e2e40718dd85993a60a157ac0cde52a0e39723841b58460e3f54b3ed3f987ae"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/LensProfile.java",
+      "bytes": 3347,
+      "sha256": "ef4d01ffe32311d3fbae241d9ea9c7ee19b8fb777a35652a3278280fd70c48d8"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/MainActivity.java",
+      "bytes": 51058,
+      "sha256": "8840ad8fc63d8b34c408e013313c8521f7950f43fe995ab0689c5d9e39bc9462"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/NativeBridge.java",
+      "bytes": 391,
+      "sha256": "436a07eaf51e135059a874aa7dde3c571f1d2e971a28be31a3ca086bed9a1f38"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/OwnClipProvider.java",
+      "bytes": 4725,
+      "sha256": "62ec75b84459b14b224ef12ec50628dde3f2903b48d2ba6bd36ee06a258fe605"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/Storage.java",
+      "bytes": 17992,
+      "sha256": "398bf0ff3aa99ec01563be7bb19ba57ec1c4818e8050c5cf497b4f79c7c18c4d"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/StorageSelfTest.java",
+      "bytes": 13696,
+      "sha256": "031d49a2f6e518be437d3fbf812de2a36a7ce8ca6398a98f26d104359fe100b8"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/VehicleTelemetry.java",
+      "bytes": 14291,
+      "sha256": "7c4e50469a08192432bcc537f50524fce93c9391dabd018ded6ee67ce89e8318"
+    },
+    {
+      "path": "src/dev/local/jaecoorecorder/VideoRecorder.java",
+      "bytes": 19039,
+      "sha256": "03effa9d0ddbd118ac2dca6f6c185a51ee8780fd0549a04878db2b4b537e46ca"
+    },
+    {
+      "path": "tests/DvrAutomationHostTest.java",
+      "bytes": 2963,
+      "sha256": "f90990f1fa1249ca1e23b8f83404c92648b686b3acf3dd7ba338211271b1ed55"
+    },
+    {
+      "path": "tests/run-policy-tests.ps1",
+      "bytes": 679,
+      "sha256": "c412bff6ddcac9dc69cfd5ec7d536f645477b0b7feeacd564fad71e6dae57985"
+    }
+  ]
+}

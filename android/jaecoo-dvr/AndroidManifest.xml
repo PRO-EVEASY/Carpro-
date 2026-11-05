@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dev.local.jaecoorecorder" android:versionCode="1" android:versionName="1.1.0-dvr">
+ <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="28"/>
+ <uses-permission android:name="android.permission.CAMERA"/>
+ <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+ <uses-permission android:name="android.permission.WAKE_LOCK"/>
+ <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+ <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+ <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+ <uses-permission android:name="android.car.permission.CAR_SPEED"/>
+ <uses-permission android:name="android.car.permission.CAR_POWERTRAIN"/>
+ <application android:label="Jaecoo DVR" android:icon="@mipmap/ic_launcher" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false" android:supportsRtl="true" android:debuggable="true" android:extractNativeLibs="true">
+  <uses-library android:name="android.car" android:required="false"/>
+  <provider android:name=".OwnClipProvider" android:authorities="dev.local.jaecoorecorder.clips" android:exported="false" android:grantUriPermissions="true"/>
+  <receiver android:name=".DvrBootReceiver" android:exported="false"><intent-filter><action android:name="android.intent.action.BOOT_COMPLETED"/><action android:name="android.intent.action.MY_PACKAGE_REPLACED"/><action android:name="android.intent.action.USER_UNLOCKED"/></intent-filter></receiver>
+  <activity android:launchMode="singleTop" android:name=".MainActivity" android:exported="true" android:configChanges="orientation|screenSize" android:screenOrientation="unspecified"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+  <service android:name=".CameraService" android:exported="false" android:foregroundServiceType="camera|location"/>
+ </application>
+</manifest>
